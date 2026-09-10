@@ -1,0 +1,27 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>گزارش امروز | آکادمی اکبر زاده</title><meta name="description" content="سامانه گزارش مطالعه آکادمی اکبر زاده"><link rel="stylesheet" href="style.css"></head><body>
+<div class="topline"><div class="container"><span>آکادمی اکبر زاده</span><span>سامانه ثبت و پایش گزارش مطالعه</span></div></div>
+<header class="header"><div class="container nav">
+<a class="brand" href="dashboard.html"><span class="brand-mark">AA</span><span>آکادمی اکبر زاده</span></a>
+<button class="icon-btn mobile-toggle" data-mobile aria-label="منو">☰</button>
+<nav class="nav-links">
+<a href="dashboard.html">گزارش امروز</a><a href="history.html">سوابق مطالعه</a><a href="leaderboard.html">رقابت</a><a href="profile.html">پروفایل</a>
+</nav>
+<div class="nav-actions"><button class="icon-btn" data-theme title="تغییر حالت">◐</button><a class="btn primary login-text" href="login.html">ورود</a></div>
+</div></header>
+
+<main class="page" data-dashboard><div class="container">
+<div class="page-head"><div><div class="kicker">STUDY REPORT</div><h1>گزارش عملکرد</h1><p class="lead">سلام <strong data-name>دانش‌آموز</strong>؛ وضعیت مطالعه این هفته را در یک نگاه ببینید.</p></div><a class="btn primary" href="report.html">+ ثبت گزارش امروز</a></div>
+<div class="grid grid-4">
+<div class="card stat"><div class="stat-label">ساعت مطالعه هفتگی</div><div class="stat-value" data-week-hours>۰ ساعت</div><div class="stat-note">مجموع ثبت‌شده</div></div>
+<div class="card stat"><div class="stat-label">تعداد تست</div><div class="stat-value" data-week-tests>۰</div><div class="stat-note">در هفت روز اخیر</div></div>
+<div class="card stat"><div class="stat-label">میانگین بازدهی</div><div class="stat-value" data-week-eff>۰٪</div><div class="stat-note">بر اساس درس‌های ثبت‌شده</div></div>
+<div class="card stat"><div class="stat-label">رتبه هفتگی</div><div class="stat-value">#<span data-rank>—</span></div><div class="stat-note">در جدول رقابت</div></div>
+</div>
+<div class="dashboard-grid section-gap">
+<section class="panel"><div class="report-head"><div><h2>روند مطالعه هفته</h2><p class="lead small">ساعت مطالعه ثبت‌شده در هفت روز اخیر</p></div><span class="date-lock"><span>امروز</span><span data-today></span></span></div><div class="bar-chart" data-bars></div></section>
+<aside class="panel"><div class="report-head"><div><h2>جدول رقابت</h2><p class="lead small">بر اساس ساعت مطالعه</p></div><a class="small" href="leaderboard.html">مشاهده کامل</a></div><div data-leaderboard-preview></div></aside>
+</div>
+<section class="panel section-gap"><div class="report-head"><div><h2>آخرین گزارش‌ها</h2><p class="lead small">سوابق ثبت‌شده اخیر</p></div><a class="btn" href="history.html">همه سوابق</a></div><div class="table-wrap"><table class="table"><thead><tr><th>تاریخ</th><th>تعداد درس</th><th>مطالعه</th><th>تست</th><th>بازدهی</th></tr></thead><tbody data-recent></tbody></table></div></section>
+</div></main>
+<footer><div class="container"><div class="brand"><span class="brand-mark">AA</span><span>آکادمی اکبر زاده</span></div><div class="copy">سامانه ثبت گزارش مطالعه و پایش عملکرد — طراحی با رویکرد رسمی، خلوت و دانشگاهی.</div></div></footer>
+<script src="app.js"></script></body></html>
