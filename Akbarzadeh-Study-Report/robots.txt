@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akbarzadeh-study.tahasyna14.workers.dev/sitemap.xml
